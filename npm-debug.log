@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0 info it worked if it ends with ok
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
@@ -38,3 +39,45 @@
 26 error If you need help, you may report this error at:
 26 error     <https://github.com/npm/npm/issues>
 27 verbose exit [ 1, true ]
+=======
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle angular-io-example@1.0.0~prestart: angular-io-example@1.0.0
+6 verbose lifecycle angular-io-example@1.0.0~prestart: unsafe-perm in lifecycle true
+7 verbose lifecycle angular-io-example@1.0.0~prestart: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;B:\WorkSpace\AngularHeros\newproject\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\app\Krishna\product\11.2.0\dbhome_1\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\SASHome\x86\Formats;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Krishna\AppData\Local\Microsoft\WindowsApps;C:\Users\Krishna\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin
+8 verbose lifecycle angular-io-example@1.0.0~prestart: CWD: B:\WorkSpace\AngularHeros\newproject
+9 silly lifecycle angular-io-example@1.0.0~prestart: Args: [ '/d /s /c', 'npm run build' ]
+10 silly lifecycle angular-io-example@1.0.0~prestart: Returned: code: 0  signal: null
+11 info lifecycle angular-io-example@1.0.0~start: angular-io-example@1.0.0
+12 verbose lifecycle angular-io-example@1.0.0~start: unsafe-perm in lifecycle true
+13 verbose lifecycle angular-io-example@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;B:\WorkSpace\AngularHeros\newproject\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\app\Krishna\product\11.2.0\dbhome_1\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\SASHome\x86\Formats;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Krishna\AppData\Local\Microsoft\WindowsApps;C:\Users\Krishna\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin
+14 verbose lifecycle angular-io-example@1.0.0~start: CWD: B:\WorkSpace\AngularHeros\newproject
+15 silly lifecycle angular-io-example@1.0.0~start: Args: [ '/d /s /c',
+15 silly lifecycle   'concurrently "npm run build:watch" "npm run serve"' ]
+16 verbose stack Error: kill ENOSYS
+16 verbose stack     at exports._errnoException (util.js:1020:11)
+16 verbose stack     at process.kill (internal/process.js:190:13)
+16 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+16 verbose stack     at emitNone (events.js:91:20)
+16 verbose stack     at process.emit (events.js:185:7)
+16 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+16 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+16 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+17 verbose cwd B:\WorkSpace\AngularHeros\newproject
+18 error Windows_NT 10.0.15063
+19 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+20 error node v6.11.2
+21 error npm  v3.10.10
+22 error code ENOSYS
+23 error errno ENOSYS
+24 error syscall kill
+25 error kill ENOSYS
+26 error If you need help, you may report this error at:
+26 error     <https://github.com/npm/npm/issues>
+27 verbose exit [ 1, true ]
+>>>>>>> 6fae08ca2191767d3199ebbdb71dc3d7b3090e35
