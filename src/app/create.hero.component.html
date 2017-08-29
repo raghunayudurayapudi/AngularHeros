@@ -1,0 +1,13 @@
+<form class='form' #f='ngForm' (ngSubmit)="onSubmit(f.form._value)" >
+     <div class='row'>
+        <label class="control-label col-sm-2" for="id">Hero id</label>
+         <input class='form-control col-sm-10' name='id' id='id' ngModel required>
+    </div>
+    <div class='row'>
+    <label class="control-label col-sm-2" for="name">Hero Name</label>
+    <input class='form-control col-sm-10' name='hero' id='name' ngModel required>
+    </div>
+    
+    <br>
+    <button class='btn btn-primary' type='submit' [disabled]='!f.valid'>Submit</button>
+</form>
